@@ -77,10 +77,10 @@ class Fluttertoast {
 
 //lines from 78 to 97 have been changed in order to solve issue #328
     if (backgroundColor == null) {
-      backgroundColor = Colors.black;
+      backgroundColor = Colors.white;
     }
     if (textColor == null) {
-      textColor = Colors.white;
+      textColor = Colors.black;
     }
     final Map<String, dynamic> params = <String, dynamic>{
       'msg': msg,
