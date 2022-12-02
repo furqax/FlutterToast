@@ -77,7 +77,7 @@ class Fluttertoast {
 
 //lines from 78 to 97 have been changed in order to solve issue #328
     if (backgroundColor == null) {
-      backgroundColor = Colors.white;
+      backgroundColor = Colors.grey[300];
     }
     if (textColor == null) {
       textColor = Colors.black;
